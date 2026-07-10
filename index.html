@@ -41,6 +41,7 @@
     transition: border-color 0.15s ease, background 0.15s ease;
   }
   a.button:hover { border-color: var(--border-hover); background: var(--hover-bg); }
+  .buttons { display: flex; gap: 0.75rem; }
 
   footer { margin-top: 3rem; color: var(--footer); font-size: 0.8rem; }
   footer a { color: var(--footer-link); }
@@ -73,10 +74,23 @@
   <p class="focus"><strong>Current practice:</strong> Agents and Multimodal LLMs, AI Platform Design, Multi-Agent Systems, MCP Systems, Computing Networks for Entertainment, Real-Time Generative AI, World and Cognitive Simulators</p>
   <p class="langs"><strong>Languages:</strong> Python, C++, Rust, Docker, Shell</p>
 
-  <a class="button" href="https://vecnode.github.io/sites/">sites &rarr;</a>
+  <div class="buttons">
+    <a class="button" href="https://vecnode.github.io/sites/">sites &rarr;</a>
+    <a class="button" href="#" id="contact-btn">contact &rarr;</a>
+  </div>
 
   <footer><a href="https://github.com/vecnode" target="_blank" rel="noopener">github.com/vecnode</a></footer>
 </main>
 <script src="assets/theme.js"></script>
+<script>
+  (function () {
+    var codes = [108, 46, 112, 105, 110, 116, 111, 97, 114, 97, 110, 100, 97, 115, 64, 97, 114, 116, 115, 46, 97, 99, 46, 117, 107];
+    var email = String.fromCharCode.apply(null, codes);
+    document.getElementById("contact-btn").addEventListener("click", function (e) {
+      e.preventDefault();
+      window.location.href = "mailto:" + email + "?subject=" + encodeURIComponent("Project inquiry");
+    });
+  })();
+</script>
 </body>
 </html>
