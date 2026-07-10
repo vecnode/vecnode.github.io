@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>vecnode</title>
+<link rel="icon" type="image/png" href="assets/favicon.png">
+<style>
+  :root { color-scheme: light dark; }
+  :root[data-theme="dark"] {
+    --bg: #0b0b0d; --fg: #e8e8e8; --muted: #888; --border: #232323;
+    --border-hover: #3a3a3a; --hover-bg: #131315; --footer: #555; --footer-link: #777;
+  }
+  :root[data-theme="light"] {
+    --bg: #fafafa; --fg: #1a1a1a; --muted: #666; --border: #e2e2e2;
+    --border-hover: #c9c9c9; --hover-bg: #f0f0f0; --footer: #999; --footer-link: #555;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    background: var(--bg);
+    color: var(--fg);
+    padding: 4rem 1.5rem;
+    transition: background 0.15s ease, color 0.15s ease;
+  }
+  main { max-width: 720px; margin: 0 auto; }
+  h1 { font-size: 1.5rem; font-weight: 600; letter-spacing: -0.02em; margin-bottom: 1.5rem; }
+  p.greeting { margin: 0 0 1.5rem; }
+  ul.stack { list-style: none; padding: 0; margin: 0; display: grid; gap: 0.5rem; color: var(--muted); }
+
+  #theme-toggle {
+    position: fixed;
+    top: 1.25rem;
+    right: 1.25rem;
+    width: 2.25rem;
+    height: 2.25rem;
+    border-radius: 999px;
+    border: 1px solid var(--border);
+    background: var(--hover-bg);
+    color: var(--fg);
+    font-size: 1rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: border-color 0.15s ease, background 0.15s ease;
+  }
+  #theme-toggle:hover { border-color: var(--border-hover); }
+</style>
+</head>
+<body>
+<main>
+  <h1>vecnode</h1>
+  <p class="greeting">Hi there 👋</p>
+  <ul class="stack">
+    <li>Python</li>
+    <li>C++ | Rust</li>
+    <li>Docker | Shell</li>
+  </ul>
+</main>
+<script src="assets/theme.js"></script>
+</body>
+</html>
