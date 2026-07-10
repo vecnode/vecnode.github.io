@@ -25,9 +25,25 @@
     transition: background 0.15s ease, color 0.15s ease;
   }
   main { max-width: 720px; margin: 0 auto; }
-  h1 { font-size: 1.5rem; font-weight: 600; letter-spacing: -0.02em; margin-bottom: 1.5rem; }
+  h1 { font-size: 1.5rem; font-weight: 600; letter-spacing: -0.02em; margin-bottom: 0.25rem; }
+  p.tagline { color: var(--muted); margin: 0 0 2rem; font-size: 0.9rem; }
   p.greeting { margin: 0 0 1.5rem; }
-  ul.stack { list-style: none; padding: 0; margin: 0; display: grid; gap: 0.5rem; color: var(--muted); }
+  ul.stack { list-style: none; padding: 0; margin: 0 0 2.5rem; display: grid; gap: 0.5rem; color: var(--muted); }
+
+  a.button {
+    display: inline-block;
+    padding: 0.75rem 1.25rem;
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    color: var(--fg);
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: border-color 0.15s ease, background 0.15s ease;
+  }
+  a.button:hover { border-color: var(--border-hover); background: var(--hover-bg); }
+
+  footer { margin-top: 3rem; color: var(--footer); font-size: 0.8rem; }
+  footer a { color: var(--footer-link); }
 
   #theme-toggle {
     position: fixed;
@@ -52,12 +68,17 @@
 <body>
 <main>
   <h1>vecnode</h1>
+  <p class="tagline">Agents, AIGC, AV &middot; Lisbon/London</p>
   <p class="greeting">Hi there 👋</p>
   <ul class="stack">
     <li>Python</li>
     <li>C++ | Rust</li>
     <li>Docker | Shell</li>
   </ul>
+
+  <a class="button" href="https://vecnode.github.io/sites/">sites &rarr;</a>
+
+  <footer><a href="https://github.com/vecnode" target="_blank" rel="noopener">github.com/vecnode</a></footer>
 </main>
 <script src="assets/theme.js"></script>
 </body>
