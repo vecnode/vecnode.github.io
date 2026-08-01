@@ -1,7 +1,7 @@
 (function () {
   const KEY = "vecnode-theme";
   const stored = localStorage.getItem(KEY);
-  const initial = stored || (matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark");
+  const initial = stored || "light";
   document.documentElement.setAttribute("data-theme", initial);
 
   window.addEventListener("DOMContentLoaded", () => {
