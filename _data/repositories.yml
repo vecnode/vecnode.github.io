@@ -1,0 +1,11 @@
+github_users:
+  - vecnode
+
+repo_description_lines_max: 2
+
+github_repos:
+  - vecnode/vncli
+  - vecnode/droidcli
+  - vecnode/training
+  - vecnode/sites
+  - vecnode/vecnode.github.io

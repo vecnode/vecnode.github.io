@@ -1,0 +1,13 @@
+# Co-author metadata, keyed by lower-cased surname with no accents.
+# Each key maps to a list of {firstname: [...], url: ...} entries so that
+# matching names in _bibliography/papers.bib are linked automatically.
+#
+# Example:
+#
+# "adams":
+#   - firstname: ["Edwin", "E.", "Edwin Plimpton"]
+#     url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+
+"vecnode":
+  - firstname: ["vecnode"]
+    url: https://github.com/vecnode
