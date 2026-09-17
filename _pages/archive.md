@@ -3,7 +3,7 @@ layout: page
 title: sites
 permalink: /archive/
 description: Pulled and archived sites, served as static content from this domain.
-nav: true
+nav: false # kept out of the navbar; the "sites" tab is now the "research" page (_pages/research.md)
 nav_order: 3
 ---
 
