@@ -26,7 +26,7 @@ Hi there 👋
 
 Design Engineering and Scientific Research focusing on Agents and Creative AI. Specialist in AI applications for signal processing with prior experience in audio and video computing, adaptive models and inference-based automation. Proven track record of driving innovative interdisciplinary research and high-resource deep learning deployment.
 
-
+Previous participation in EvoStar, ICCC, ACC, VAF, ICLI, WAC. In production I have collaborated with entities Aardman Animations, Channel 4, Braga Media Arts UNESCO, Criatech, Openfield Creativelab, to name a few.
 
 **Research Statement**  
   
@@ -50,18 +50,12 @@ My work spans:
 
 With the aim of ensuring reliability and transparency beyond controlled benchmark conditions. 
 
+**Research Projects:**
 
+- Collections Transformer: PDRF extending "Transforming Collections: Reimagining Art, Nation and Heritage", 1 of 5 'Discovery Projects' part of the 5-year Towards A National Collection (TaNC) programme. Funded by UKRI's Arts and Humanities Research Council (AHRC). In partnership with Tate and Decolonising Arts Institute (AH/W003341/1).
 
+- Charismatic Project: PDRF "AI-driven Storytelling for TV and Film Industries" led by Charismatic.AI, Channel 4, UAL Creative Computing Institute, Falmouth University, Aardman Animations, Sound Reactions and digital ethicist Lisa Talia Moretti, supported by InnovateUK (UKRI).
 
-**Languages:** Python, C++, Rust, Docker, Shell.
+- Xperimus Project: AR “Experimentation in music in Portuguese culture: History, contexts and practices in the 20th and 21st centuries” (POCI-01-0145-FEDER031380) co-funded by the European Union through the Operational Program Competitiveness and Internationalisation, in its ERDF component, and by national funds, through the Portuguese Foundation for Science and Technology (FCT/PT).
 
-Work lives on [GitHub](https://github.com/vecnode):
-
-- [vncli](https://github.com/vecnode/vncli) — personal management CLI for researchers
-- [droidcli](https://github.com/vecnode/droidcli) — agent daemon and CLI for multimodal tasks
-- [training](https://github.com/vecnode/training) — model training, pre-training and fine-tuning workspace
-
-Pulled and archived sites — [news](https://vecnode.github.io/sites/news/) by
-topic, and
-[agentic-montage](https://vecnode.github.io/sites/agentic-montage/) — are
-indexed in the [archive](/archive/).
+**Programming Languages:** Python, C++, Rust, Docker, Shell.
