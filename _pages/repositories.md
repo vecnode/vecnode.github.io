@@ -3,7 +3,7 @@ layout: page
 permalink: /repositories/
 title: repositories
 description: Open-source work on GitHub.
-nav: true
+nav: false # kept out of the navbar; the site's tabs are "about" and "research"
 nav_order: 4
 ---
 
