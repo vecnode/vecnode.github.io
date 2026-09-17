@@ -2,10 +2,10 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: vecnode # the website title (if blank, full name will be used instead)
-first_name: vecnode
+title: Luís Arandas # the website title (if blank, full name will be used instead)
+first_name: Luís 
 middle_name:
-last_name:
+last_name: Arandas
 contact_note: >
   Lisbon/London. Open to research and engineering collaborations.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"

@@ -24,8 +24,34 @@ latest_posts:
 
 Hi there 👋
 
-**Current practice:** agents and MLLMs, AI MAS platform design, MCP systems,
-critical computing networks, real-time generative AI, cognitive simulators.
+Design Engineering and Scientific Research focusing on Agents and Creative AI. Specialist in AI applications for signal processing with prior experience in audio and video computing, adaptive models and inference-based automation. Proven track record of driving innovative interdisciplinary research and high-resource deep learning deployment.
+
+
+
+**Research Statement**  
+  
+My scientific research focuses on robust, interpretable, and multimodal Creative AI, particularly under real-world constraints such as induced hallucination, time-critical operations, and privacy requirements. 
+
+I have developed a sustained research agenda at the intersection of:
+
+- AI-assisted signal processing
+- Multimodal agents and real-time inference
+- Computing networks and system integration
+
+With applications in audio, video and critical environments. 
+
+My current goal is to develop reliable multimodal agents that can reason from data in a robust, interpretable, and verifiable manner. 
+
+My work spans:
+
+- Computer engineering advances
+- System-level integration
+- Deployment-oriented research
+
+With the aim of ensuring reliability and transparency beyond controlled benchmark conditions. 
+
+
+
 
 **Languages:** Python, C++, Rust, Docker, Shell.
 
