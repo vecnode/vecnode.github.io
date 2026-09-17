@@ -8,6 +8,11 @@ middle_name:
 last_name: Arandas
 contact_note: >
   Lisbon/London. Open to research and engineering collaborations.
+# Rendered as the envelope icon in the about page's social row by _layouts/about.liquid.
+# Set here rather than in _data/socials.yml on purpose: jekyll-socials would emit a plain
+# mailto: link for an `email:` entry there, and al_search would add a mailto: entry to the
+# search palette — both of which protect_email (below) exists to keep out of the HTML.
+contact_email: l.pintoarandas@arts.ac.uk
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Agents, AIGC, AV — Lisbon/London. Agents and MLLMs, AI MAS platform design,
   MCP systems, critical computing networks, real-time generative AI, cognitive simulators.
