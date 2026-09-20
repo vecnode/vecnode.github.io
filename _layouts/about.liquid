@@ -103,12 +103,19 @@ layout: default
             {%- endif -%}
           {%- endif -%}
           {%- comment -%}
-            Piped through al_email_protect_html as a safety net: if an `email:` entry is ever
-            added to _data/socials.yml, jekyll-socials' raw mailto: is rewritten instead of
-            leaking past `protect_email: true`.
+            jekyll-socials joins its anchors with a literal space (`.join(" ")` in the tag),
+            and at the 4rem icon font size that space renders as a visible gap between the
+            github and linkedin icons. regex_replace closes any run of spaces between two
+            anchors, so the row reads as one evenly spaced block; it is a no-op if the gem
+            ever stops separating them.
           {%- endcomment -%}
           {%- capture contact_icons -%}{% social_links %}{%- endcapture -%}
-          {{- contact_icons | al_email_protect_html -}}
+          {%- comment -%}
+            Then piped through al_email_protect_html as a safety net: if an `email:` entry is
+            ever added to _data/socials.yml, jekyll-socials' raw mailto: is rewritten instead
+            of leaking past `protect_email: true`.
+          {%- endcomment -%}
+          {{- contact_icons | regex_replace: '</a> +<a', '</a><a' | al_email_protect_html -}}
         </div>
 
         <div class="contact-note">{{ site.contact_note }}</div>

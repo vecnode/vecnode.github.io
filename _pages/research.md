@@ -3,6 +3,12 @@ layout: page
 permalink: /research/
 title: research
 description: Peer-reviewed publications and conference proceedings.
+# The page heading is `page.title`, which the navbar renders too, and the tab has to stay
+# lowercase "research" to sit with the lowercase "about" tab. So the heading is capitalized
+# at display level only: `_styles` is the theme's per-page <style> hook
+# (_layouts/page.liquid), and `.post-title` appears nowhere else on this page.
+_styles: >
+  .post-title { text-transform: capitalize; }
 nav: true
 nav_order: 3
 ---
@@ -15,7 +21,7 @@ nav_order: 3
 
 - Xperimus Project: AR “Experimentation in music in Portuguese culture: History, contexts and practices in the 20th and 21st centuries” (POCI-01-0145-FEDER031380) co-funded by the European Union through the Operational Program Competitiveness and Internationalisation, in its ERDF component, and by national funds, through the Portuguese Foundation for Science and Technology (FCT/PT).
 
-**Programming Languages:** Python, C++, Rust, Docker, Shell.
+**Programming Languages:** Python, C++, Rust, TS/JS, Docker, Shell.
 
 <!-- Bibsearch Feature -->
 
