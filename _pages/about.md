@@ -26,7 +26,7 @@ Hi there 👋
 
 Design Engineering and Scientific Research focusing on Agents and Creative AI. Specialist in AI applications for signal processing with prior experience in audio and video computing, adaptive models and inference-based automation. Proven track record of driving innovative interdisciplinary research and high-resource deep learning deployment.
 
-Previous participation in EvoStar, ICCC, ACC, VAF, ICLI, WAC. In production I have collaborated with entities Aardman Animations, Channel 4, Braga Media Arts UNESCO, Criatech, Openfield Creativelab, to name a few.
+Previous participation in EvoStar, PAAMS, ICCC, ACC, VAF, ICLI, WAC. In production I have collaborated with entities Aardman Animations, Channel 4, Braga Media Arts UNESCO, Criatech, Openfield Creativelab, to name a few.
 
 **Research Statement**  
   
