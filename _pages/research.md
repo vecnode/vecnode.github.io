@@ -15,6 +15,8 @@ nav_order: 3
 
 **Research Projects:**
 
+- 111 Center: Human-AI Collaborative Design Center for International Cooperation and Disciplinary Innovation (B26063). Five year international collaboration project funded by the Chinese Ministry of Education (CN).
+
 - Collections Transformer: PDRF extending "Transforming Collections: Reimagining Art, Nation and Heritage", 1 of 5 'Discovery Projects' part of the 5-year Towards A National Collection (TaNC) programme. Funded by UKRI's Arts and Humanities Research Council (AHRC). In partnership with Tate and Decolonising Arts Institute (AH/W003341/1).
 
 - Charismatic Project: PDRF "AI-driven Storytelling for TV and Film Industries" led by Charismatic.AI, Channel 4, UAL Creative Computing Institute, Falmouth University, Aardman Animations, Sound Reactions and digital ethicist Lisa Talia Moretti, supported by InnovateUK (UKRI).
